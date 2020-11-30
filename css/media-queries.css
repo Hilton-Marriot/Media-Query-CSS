@@ -92,11 +92,19 @@
         width: 100%;
     }
 
+
+    .section-box {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+
     .main{
         width: 200px;
         float: left;
         margin: 10px;
-
+        flex-grow: 1;
     }
     .sub-section{
         width: 200px;
