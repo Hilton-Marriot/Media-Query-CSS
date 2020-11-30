@@ -32,23 +32,27 @@
 
     }
 
+
+
     .nav-links{
         display: flex;
         flex-direction: column-reverse;
         list-style-type: none;
-        padding: 20px;
-        justify-content: space-between;
+        padding: 0;
+        justify-content: center;
+        align-content: stretch;
     }
     li{
         display: inline-block;
         color: black;
         background-color: lightgray;
-        margin: 5px;
+        margin-top: 5px;
+        margin-bottom: 5px;
         border: hidden;
         padding: 16px;
         text-decoration: none;
         text-align: center;
-        width: border-box;
+        width: inherit;
     }
     img{
         height: 100%;
@@ -63,9 +67,7 @@
         font-style: italic;
 
     }
-    footer{
 
-    }
 }
 
 @media screen and (min-width:701px) and (max-width:2000px) {
