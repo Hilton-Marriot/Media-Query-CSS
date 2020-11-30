@@ -11,6 +11,10 @@
         justify-content: center;
 
     }
+    body {
+        font-family: Helvetica, serif;
+    }
+
     h1{
         display: flex;
         align-items: center;
@@ -63,10 +67,11 @@
     .alert-info{
         display: none;
     }
-    h1{
-        position: relative;
-        top: 60px;
-
+    #navbox {
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        justify-content: space-between;
     }
 
     ul{
@@ -77,6 +82,8 @@
     }
     li{
         float: right;
+        margin-top: 20px;
+        text-decoration: underline;
     }
     li a{
         display: block;
@@ -91,6 +98,7 @@
         height: 100%;
         width: 100%;
     }
+
 
 
     .section-box {
@@ -113,6 +121,9 @@
 
     }
 
+    body {
+        font-family: Helvetica, serif;
+    }
     footer{
         position: fixed;
         left: 0;
