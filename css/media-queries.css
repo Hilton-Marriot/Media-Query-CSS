@@ -1,9 +1,9 @@
 @media screen and (min-width:339px) and (max-width:700px){
 
     .alert-info{
-        background-color: lightblue;
+        background-color: #CCFFFF;
         color: gray;
-        border: 1px solid lightgray;
+        border: 3px solid lightgray;
         margin-top: auto;
         display: flex;
         align-items: center;
@@ -11,8 +11,16 @@
         justify-content: center;
 
     }
+
+    .alert-info>a {
+        text-decoration: none;
+        color: black;
+    }
+
     body {
         font-family: Helvetica, serif;
+        margin: 1em;
+        padding: 0;
     }
 
     h1{
@@ -23,27 +31,24 @@
         margin: auto;
 
     }
+
     .nav-links{
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
         list-style-type: none;
-        margin: 1em;
-        padding: 0;
-        width: auto;
-        height: auto;
-
-
+        padding: 20px;
+        justify-content: space-between;
     }
     li{
         display: inline-block;
         color: black;
         background-color: lightgray;
-        margin: 1em;
+        margin: 5px;
         border: hidden;
-        padding: 8px 16px;
+        padding: 16px;
         text-decoration: none;
         text-align: center;
-
+        width: border-box;
     }
     img{
         height: 100%;
